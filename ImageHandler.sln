@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ImageHandler", "ImageHandler\ImageHandler.shproj", "{A07E0E78-7CA5-4AB3-BB14-FBE11F86C893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageHandler.iOS", "iOS\ImageHandler.iOS.csproj", "{76AEAB2D-08B8-4424-A233-53E85F02A7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Release|iPhone.ActiveCfg = Release|iPhone
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Release|iPhone.Build.0 = Release|iPhone
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{76AEAB2D-08B8-4424-A233-53E85F02A7FB}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+EndGlobal
