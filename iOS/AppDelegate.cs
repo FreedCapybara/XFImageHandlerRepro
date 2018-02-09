@@ -15,7 +15,7 @@ namespace ImageHandler.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
-
+            AboutViewModel.PictureLibraryService = new PictureLibraryService();
 
             return base.FinishedLaunching(app, options);
         }

@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using ImageHandler;
+using ImageHandler.iOS;
 using UIKit;
+using Xamarin.Forms;
 
+[assembly: ExportImageSourceHandler(typeof(ByteArrayImageSource), typeof(ByteArrayImageSourceHandler))]
 namespace ImageHandler.iOS
 {
     public class Application
